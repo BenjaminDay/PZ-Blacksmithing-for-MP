@@ -1,0 +1,284 @@
+module Base
+{
+    item CharcoalBox
+    {
+        DisplayCategory = Material,
+        Weight = 8.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = CharcoalBox,
+    }
+    item CharcoalCraftedBox
+    {
+        DisplayCategory = Material,
+        Weight = 8.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = CharcoalCraftedBox,
+    }
+    item CokeBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = CokeBox,
+    }
+
+    item SteelBarBox
+    {
+        DisplayCategory = Material,
+        Weight = 20.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelBarBox,
+    }
+    item SteelBarHalfBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelBarHalfBox,
+    }
+    item SteelBarQuarterBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelBarQuarterBox,
+    }
+    item MetalBarBox
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = MetalBarBox,
+    }
+    item SteelRodHalfBox
+    {
+        DisplayCategory = Material,
+        Weight = 7.5,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelRodHalfBox,
+    }
+    item SteelRodQuarterBox
+    {
+        DisplayCategory = Material,
+        Weight = 3.8,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelRodQuarterBox,
+    }
+    item SteelBlockBox
+    {
+        DisplayCategory = Material,
+        Weight = 20.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelBlockBox,
+    }
+    item SteelChunkBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelChunkBox,
+    }
+    item SteelPieceBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelPieceBox,
+    }
+    item SteelScrapBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SteelScrapBox,
+    }
+    item SheetMetalBox
+    {
+        DisplayCategory = Material,
+        Weight = 20.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SheetMetalBox,
+    }
+    item SmallSheetMetalBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = SmallSheetMetalBox,
+    }
+    item UnusableMetalBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = UnusableMetalBox,
+    }
+    item IronBarBox
+    {
+        DisplayCategory = Material,
+        Weight = 20.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronBarBox,
+    }
+    item IronBarHalfBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronBarHalfBox,
+    }
+    item IronBarQuarterBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronBarQuarterBox,
+    }
+    item MetalPipeBox
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = MetalPipeBox,
+    }
+    item MetalPipe_BrokenBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = MetalPipe_BrokenBox,
+    }
+    item IronBandBox
+    {
+        DisplayCategory = Material,
+        Weight = 20.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronBandBox,
+    }
+    item IronBandSmallBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronBandSmallBox,
+    }
+    item IronBlockBox
+    {
+        DisplayCategory = Material,
+        Weight = 20.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronBlockBox,
+    }
+    item IronChunkBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronChunkBox,
+    }
+    item IronPieceBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronPieceBox,
+    }
+    item IronScrapBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = IronScrapBox,
+    }
+    item ScrapMetalBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = ScrapMetalBox,
+    }
+    item EnginePartsBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = EnginePartsBox,
+    }
+    item NutsBoltsBox
+    {
+        DisplayCategory = Material,
+        Weight = 8.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = NutsBoltsBox,
+    }
+    item ElectricWireBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = ElectricWireBox,
+    }
+    item ElectronicsScrapBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = ElectronicsScrapBox,
+    }
+    item AluminumFragmentsBox
+    {
+        DisplayCategory = Material,
+        Weight = 10.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = AluminumFragmentsBox,
+    }
+    item AluminumScrapBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = AluminumScrapBox,
+    }
+    item CopperScrapBox
+    {
+        DisplayCategory = Material,
+        Weight = 5.0,
+        ItemType = base:normal,
+        Icon = CardBoard,
+        WorldStaticModel = CopperScrapBox,
+    }
+}

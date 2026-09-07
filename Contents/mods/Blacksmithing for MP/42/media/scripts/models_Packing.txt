@@ -1,0 +1,178 @@
+module Base
+{
+    model CharcoalBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_Charcoal,
+    }
+    model CharcoalCraftedBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_CharcoalCrafted,
+    }
+    model CokeBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_Coke,
+    }
+    model SteelBarBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelBar,
+    }
+    model SteelBarHalfBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelBarHalf,
+    }
+    model SteelBarQuarterBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelBarQuarter,
+    }
+    model MetalBarBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelRod,
+    }
+    model SteelRodHalfBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelRodHalf,
+    }
+    model SteelRodQuarterBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelRodQuarter,
+    }
+    model SteelBlockBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelBlock,
+    }
+    model SteelChunkBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelChunk,
+    }
+    model SteelPieceBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelPiece,
+    }
+    model SteelScrapBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelScrap,
+    }
+    model SheetMetalBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelSheet,
+    }
+    model SmallSheetMetalBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SteelSheetSmall,
+    }
+    model UnusableMetalBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_SheetMetalScrap,
+    }
+    model IronBarBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronBar,
+    }
+    model IronBarHalfBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronBarHalf,
+    }
+    model IronBarQuarterBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronBarQuarter,
+    }
+    model MetalPipeBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronPipe,
+    }
+    model MetalPipe_BrokenBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronPipeBroken,
+    }
+    model IronBandBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronBand,
+    }
+    model IronBandSmallBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronBandSmall,
+    }
+    model IronBlockBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronBlock,
+    }
+    model IronChunkBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronChunk,
+    }
+    model IronPieceBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronPiece,
+    }
+    model IronScrapBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_IronScrap,
+    }
+    model ScrapMetalBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_ScrapMetal,
+    }
+    model EnginePartsBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_EngineParts,
+    }
+    model NutsBoltsBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_NutsBolts,
+    }
+    model ElectricWireBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_ElectricWire,
+    }
+    model ElectronicsScrapBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_ElectronicsScrap,
+    }
+    model AluminumFragmentsBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_AluminumFragments,
+    }
+    model AluminumScrapBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_AluminumScrap,
+    }
+    model CopperScrapBox
+    {
+        mesh = BoloBoxMesh,
+        texture = Boxes/BB_CopperScrap,
+    }
+}

@@ -1,0 +1,310 @@
+module Base
+{
+	craftRecipe BoxFuel
+    {
+        timedAction = PackingBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 12 [Base.Charcoal;Base.CharcoalCrafted;Base.Coke] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.CharcoalBox = Base.Charcoal,
+            Base.CharcoalCraftedBox = Base.CharcoalCrafted,
+            Base.CokeBox = Base.Coke,
+        }
+    }
+	craftRecipe UnBoxFuel
+    {
+        timedAction = UnPackBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 1 [Base.CharcoalBox;Base.CharcoalCraftedBox;Base.CokeBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 12 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.Charcoal = Base.CharcoalBox,
+            Base.CharcoalCrafted = Base.CharcoalCraftedBox,
+            Base.Coke = Base.CokeBox,
+        }
+    }
+	craftRecipe BoxSteelItems
+    {
+        timedAction = PackingBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 12 [Base.SteelBar;Base.SteelBarHalf;Base.SteelBarQuarter;Base.MetalBar;Base.SteelRodHalf;Base.SteelRodQuarter;Base.SteelBlock;Base.SteelChunk;Base.SheetMetal;Base.SmallSheetMetal;Base.UnusableMetal] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.SteelBarBox = Base.SteelBar,
+            Base.SteelBarHalfBox = Base.SteelBarHalf,
+            Base.SteelBarQuarterBox = Base.SteelBarQuarter,
+            Base.MetalBarBox = Base.MetalBar,
+            Base.SteelRodHalfBox = Base.SteelRodHalf,
+            Base.SteelRodQuarterBox = Base.SteelRodQuarter,
+            Base.SteelBlockBox = Base.SteelBlock,
+            Base.SteelChunkBox = Base.SteelChunk,
+            Base.SheetMetalBox = Base.SheetMetal,
+            Base.SmallSheetMetalBox = Base.SmallSheetMetal,
+			Base.UnusableMetalBox = Base.UnusableMetal,
+        }
+    }
+	craftRecipe UnBoxSteelItems
+    {
+        timedAction = UnPackBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 1 [Base.SteelBarBox;Base.SteelBarHalfBox;Base.SteelBarQuarterBox;Base.MetalBarBox;Base.SteelRodHalfBox;Base.SteelRodQuarterBox;Base.SteelBlockBox;Base.SteelChunkBox;Base.SheetMetalBox;Base.SmallSheetMetalBox;Base.UnusableMetalBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 12 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.SteelBar = Base.SteelBarBox,
+            Base.SteelBarHalf = Base.SteelBarHalfBox,
+            Base.SteelBarQuarter = Base.SteelBarQuarterBox,
+            Base.MetalBar = Base.MetalBarBox,
+            Base.SteelRodHalf = Base.SteelRodHalfBox,
+            Base.SteelRodQuarter = Base.SteelRodQuarterBox,
+            Base.SteelBlock = Base.SteelBlockBox,
+            Base.SteelChunk = Base.SteelChunkBox,
+            Base.SheetMetal = Base.SheetMetalBox,
+            Base.SmallSheetMetal = Base.SmallSheetMetalBox,
+			Base.UnusableMetal = Base.UnusableMetalBox,
+        }
+    }
+	craftRecipe BoxIronItems
+    {
+        timedAction = PackingBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 12 [Base.IronBar;Base.IronBarHalf;Base.IronBarQuarter;Base.MetalPipe;Base.MetalPipe_Broken;Base.IronBlock;Base.IronChunk;Base.IronBand;Base.IronBandSmall] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.IronBarBox = Base.IronBar,
+            Base.IronBarHalfBox = Base.IronBarHalf,
+            Base.IronBarQuarterBox = Base.IronBarQuarter,
+            Base.MetalPipeBox = Base.MetalPipe,
+            Base.MetalPipe_BrokenBox = Base.MetalPipe_Broken,
+            Base.IronBlockBox = Base.IronBlock,
+            Base.IronChunkBox = Base.IronChunk,
+            Base.IronBandBox = Base.IronBand,
+            Base.IronBandSmallBox = Base.IronBandSmall,
+        }
+    }
+	craftRecipe UnBoxIronItems
+    {
+        timedAction = UnPackBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 1 [Base.IronBarBox;Base.IronBarHalfBox;Base.IronBarQuarterBox;Base.MetalPipeBox;Base.MetalPipe_BrokenBox;Base.IronBlockBox;Base.IronChunkBox;Base.IronBandBox;Base.IronBandSmallBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 12 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.IronBar = Base.IronBarBox,
+            Base.IronBarHalf = Base.IronBarHalfBox,
+            Base.IronBarQuarter = Base.IronBarQuarterBox,
+            Base.MetalPipe = Base.MetalPipeBox,
+            Base.MetalPipe_Broken = Base.MetalPipe_BrokenBox,
+            Base.IronBlock = Base.IronBlockBox,
+            Base.IronChunk = Base.IronChunkBox,
+            Base.IronBand = Base.IronBandBox,
+            Base.IronBandSmall = Base.IronBandSmallBox,
+        }
+    }
+	craftRecipe BoxSmallItems
+    {
+        timedAction = PackingBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 120 [Base.SteelPiece;Base.IronPiece;Base.ElectronicsScrap;Base.ElectricWire;Base.AluminumFragments] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.SteelPieceBox = Base.SteelPiece,
+            Base.IronPieceBox = Base.IronPiece,
+            Base.ElectronicsScrapBox = Base.ElectronicsScrap,
+            Base.ElectricWireBox = Base.ElectricWire,
+            Base.AluminumFragmentsBox = Base.AluminumFragments,
+        }
+    }
+	craftRecipe UnBoxSmallItems
+    {
+        timedAction = UnPackBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 1 [Base.SteelPieceBox;Base.IronPieceBox;Base.ElectronicsScrapBox;Base.ElectricWireBox;Base.AluminumFragmentsBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 120 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.SteelPiece = Base.SteelPieceBox,
+            Base.IronPiece = Base.IronPieceBox,
+            Base.ElectronicsScrap = Base.ElectronicsScrapBox,
+            Base.ElectricWire = Base.ElectricWireBox,
+            Base.AluminumFragments = Base.AluminumFragmentsBox,
+        }
+    }
+	craftRecipe BoxScrap
+    {
+        timedAction = PackingBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 12 [Base.SteelScrap;Base.IronScrap;Base.AluminumScrap;Base.CopperScrap;Base.ScrapMetal] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.SteelScrapBox = Base.SteelScrap,
+            Base.IronScrapBox = Base.IronScrap,
+            Base.AluminumScrapBox = Base.AluminumScrap,
+            Base.CopperScrapBox = Base.CopperScrap,
+            Base.ScrapMetalBox = Base.ScrapMetal,
+        }
+    }
+	craftRecipe UnBoxScrap
+    {
+        timedAction = UnPackBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 1 [Base.SteelScrapBox;Base.IronScrapBox;Base.AluminumScrapBox;Base.CopperScrapBox;Base.ScrapMetalBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs
+        {
+            item 12 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.SteelScrap = Base.SteelScrapBox,
+            Base.IronScrap = Base.IronScrapBox,
+            Base.AluminumScrap = Base.AluminumScrapBox,
+            Base.CopperScrap = Base.CopperScrapBox,
+            Base.ScrapMetal = Base.ScrapMetalBox,
+        }
+    }
+	craftRecipe BoxEngineParts
+    {
+        timedAction = PackingBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 12 [Base.EngineParts],
+        }
+        outputs
+        {
+            item 1 Base.EnginePartsBox,
+        }
+    }
+	craftRecipe UnBoxEngineParts
+    {
+        timedAction = UnPackBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 1 [Base.EnginePartsBox],
+        }
+        outputs
+        {
+            item 12 Base.EngineParts,
+        }
+    }
+	craftRecipe BoxNutsBolts
+    {
+        timedAction = PackingBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        {
+            item 50 [Base.NutsBolts],
+        }
+        outputs
+        {
+            item 1 Base.NutsBoltsBox,
+        }
+    }
+	craftRecipe UnBoxNutsBolts
+    {
+        timedAction = UnPackBox,
+        time = 20,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+		inputs
+        inputs
+        {
+            item 1 [Base.NutsBoltsBox],
+        }
+        outputs
+        {
+            item 50 Base.NutsBolts,
+        }
+    }
+}

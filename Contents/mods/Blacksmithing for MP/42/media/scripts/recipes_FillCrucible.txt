@@ -1,0 +1,226 @@
+module Base
+{
+    craftRecipe FillCrucibleLargeSteel
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 5 tags[base:smeltablesteellarge] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Steel,
+		}
+	}
+    craftRecipe FillCrucibleMediumPlusSteel
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 6 tags[base:smeltablesteelmediumplus] mode:destroy flags[ItemCount;AllowDestroyedItem],
+            item 1 tags[base:smeltablesteelmedium] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Steel,
+		}
+	}
+    craftRecipe FillCrucibleMediumSteel
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 10 tags[base:smeltablesteelmedium] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Steel,
+		}
+	}
+    craftRecipe FillCrucibleSmallSteel
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 20 tags[base:smeltablesteelsmall] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Steel,
+		}
+	}
+    craftRecipe FillCrucibleSmallerSteel
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 200 [Base.FishingHook;40:Base.Fork;100:Base.SteelPiece;Base.Screws;1000:Base.Needle;40:Base.Spoon;40:Base.ButterKnife;Base.TinCanEmpty] mode:destroy flags[ItemCount;AllowDestroyedItem;IsExclusive],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Steel,
+		}
+	}
+
+    craftRecipe FillCrucibleLargeIron
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 5 tags[base:smeltableironlarge] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Iron,
+		}
+	}
+    craftRecipe FillCrucibleMediumPlusIron
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 6 tags[base:smeltableironmediumplus] mode:destroy flags[ItemCount;AllowDestroyedItem],
+            item 1 tags[base:smeltableironmedium] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Iron,
+		}
+	}
+    craftRecipe FillCrucibleMediumIron
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 10 tags[base:smeltableironmedium] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Iron,
+		}
+	}
+    craftRecipe FillCrucibleSmallIron
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 20 tags[base:smeltableironsmall] mode:destroy flags[ItemCount;AllowDestroyedItem],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Iron,
+		}
+	}
+    craftRecipe FillCrucibleSmallerIron
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:300,
+		Tags = AdvancedFurnace,
+		category = Blacksmithing,
+
+		inputs
+		{
+            item 1 [Base.CeramicCrucible] mode:destroy,
+			item 200 [Base.FishingHook_Forged;40:Base.ForkForged;100:Base.IronPiece;Base.Nails;1000:Base.Needle_Forged;40:Base.SpoonForged] mode:destroy flags[ItemCount;AllowDestroyedItem;IsExclusive],
+			item 12 tags[base:charcoal],
+            item 1 tags[Tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 CeramicCrucible_Iron,
+		}
+	}
+}

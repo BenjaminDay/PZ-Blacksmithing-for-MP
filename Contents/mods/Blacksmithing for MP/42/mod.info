@@ -1,0 +1,9 @@
+id=BlacksmithingforMPtest
+name=Blacksmithing for MP test
+description=An improvement on the vanilla blacksmithing system for MP servers
+poster=poster.png
+icon=icon.png
+tags=Build 42
+versionMin=42.0
+
+
