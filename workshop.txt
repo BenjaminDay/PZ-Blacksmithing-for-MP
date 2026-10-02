@@ -31,5 +31,6 @@ description=Box Mesh and the base CardBoard texture ported from B41 Bolognese wi
 description=This mod was created primarily for SpaghettiZ's Bolognese server but anyone is welcome to use it and repack it in their own server mods.
 description=
 description=Join Bolognese here - https://discord.gg/fhbA3vnrr9
+description=Github link - https://github.com/Hell05/PZ-Blacksmithing-for-MP
 tags=Build 42;Multiplayer;QoL
 visibility=public

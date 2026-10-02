@@ -1,3 +1,5 @@
+# PZ-Blacksmithing-for-MP
+
 An improvement on the vanilla blacksmithing system for MP servers.
 Blacksmithing works great in single player where you can x3 fast forward through the endless hours of processing materials but on multiplayer it can take multiple IRL hours to process a salvage loot run, which consists of you sitting there watching a bar go left to right and clicking every 30 seconds or so.
 
